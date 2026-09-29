@@ -70,7 +70,7 @@ Source: [Kaggle — Weather in Szeged 2006–2016](https://www.kaggle.com/datase
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/weather-temperature-prediction.git
+git clone https://github.com/Addychauhan/weather-temperature-prediction.git
 cd weather-temperature-prediction
 pip install -r requirements.txt
 ```
@@ -78,13 +78,13 @@ pip install -r requirements.txt
 ### Run the notebook
 
 ```bash
-jupyter notebook weather_prediction.ipynb
+Open it in Google Colab
 ```
 
 ### Run the Streamlit app
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app/app5.py
 ```
 
 Then open the local URL Streamlit prints (usually `http://localhost:8501`).

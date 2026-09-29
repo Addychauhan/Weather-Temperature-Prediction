@@ -10,6 +10,9 @@ Predicts hourly temperature (°C) from weather conditions (humidity, wind, press
 
 A Streamlit dashboard where you enter current weather conditions and recent temperature history, and get a predicted temperature back instantly.
 
+<img width="392" height="857" alt="image" src="https://github.com/user-attachments/assets/69ae19a1-d23c-4e62-b48c-0ead4ebb62d1" />
+
+
 ## Project Structure
 
 ```

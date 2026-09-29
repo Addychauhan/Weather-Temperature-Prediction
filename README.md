@@ -4,6 +4,10 @@ Predicts hourly temperature (°C) from weather conditions (humidity, wind, press
 
 ## Demo
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://weather-temperature-prediction-ft3synrs8mhkil4mot7vmy.streamlit.app)
+
+🔗 **[Try it live](https://weather-temperature-prediction-ft3synrs8mhkil4mot7vmy.streamlit.app)**
+
 A Streamlit dashboard where you enter current weather conditions and recent temperature history, and get a predicted temperature back instantly.
 
 ## Project Structure

@@ -10,19 +10,18 @@ Predicts hourly temperature (°C) from weather conditions (humidity, wind, press
 
 A Streamlit dashboard where you enter current weather conditions and recent temperature history, and get a predicted temperature back instantly.
 
-<img width="392" height="857" alt="image" src="https://github.com/user-attachments/assets/69ae19a1-d23c-4e62-b48c-0ead4ebb62d1" />
-
+![App screenshot](screenshot.png)
 
 ## Project Structure
 
 ```
 .
 ├── data
-    weatherHistory.csv            # Dataset (not included if too large — see Dataset section)
+│   └── weatherHistory.csv        # Dataset (not included if too large — see Dataset section)
 ├── notebook
-    weather_prediction.ipynb      # Full notebook: EDA, cleaning, feature engineering, modeling
+│   └── weather_prediction.ipynb  # Full notebook: EDA, cleaning, feature engineering, modeling
 ├── streamlit_app
-    app5.py                        # Streamlit app for live predictions
+│   └── app5.py                   # Streamlit app for live predictions
 ├── README.md
 ├── best_weather_model.joblib     # Saved best model + scaler + feature list
 └── requirements.txt              # Python dependencies
@@ -77,12 +76,12 @@ Source: [Kaggle — Weather in Szeged 2006–2016](https://www.kaggle.com/datase
 ### Installation
 
 ```bash
-git clone https://github.com/Addychauhan/weather-temperature-prediction.git
-cd weather-temperature-prediction
+git clone https://github.com/Addychauhan/Weather-Temperature-Prediction.git
+cd Weather-Temperature-Prediction
 pip install -r requirements.txt
 ```
 
-## Run the notebook
+### Run the notebook
 
 [Open in Google Colab](https://colab.research.google.com/github/Addychauhan/Weather-Temperature-Prediction/blob/main/notebook/weather_prediction.ipynb)
 

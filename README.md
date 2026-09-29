@@ -10,15 +10,15 @@ A Streamlit dashboard where you enter current weather conditions and recent temp
 
 ```
 .
+├── data
+    weatherHistory.csv            # Dataset (not included if too large — see Dataset section)
 ├── notebook
     weather_prediction.ipynb      # Full notebook: EDA, cleaning, feature engineering, modeling
 ├── streamlit_app
     app.py                        # Streamlit app for live predictions
-├── data
-    weatherHistory.csv            # Dataset (not included if too large — see Dataset section)
-├── best_weather_model.joblib     # Saved best model + scaler + feature list       
-├── requirements.txt              # Python dependencies
-└── README.md
+├── README.md
+├── best_weather_model.joblib     # Saved best model + scaler + feature list
+└── requirements.txt              # Python dependencies
 ```
 
 ## Dataset

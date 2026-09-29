@@ -82,11 +82,9 @@ cd weather-temperature-prediction
 pip install -r requirements.txt
 ```
 
-### Run the notebook
+## Run the notebook
 
-```bash
-Open it in Google Colab
-```
+[Open in Google Colab](https://colab.research.google.com/github/Addychauhan/Weather-Temperature-Prediction/blob/main/notebook/weather_prediction.ipynb)
 
 ### Run the Streamlit app
 
